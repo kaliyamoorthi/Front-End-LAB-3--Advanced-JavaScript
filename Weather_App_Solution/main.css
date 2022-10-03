@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-image: url("media/bg.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.center-div {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 1500px;
+  height: 850px;
+  background-color: rgba(0, 0, 0, 0.412);
+  border-radius: 30px;
+  backdrop-filter: blur(17px);
+}
+
+.search {
+  padding: 50px;
+  text-align: center;
+}
+.city_input {
+  width: 600px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: #ffffff;
+}
+.city_data {
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.city_data h2 {
+  font-size: 80px;
+}
+.city_data h3 {
+  font-size: 30px;
+}
+.temp_data {
+  text-align: center;
+  color: #ffffff;
+}
+.temp_data h1 {
+  font-size: 180px;
+  font-weight: 700;
+}
+.temp_data h3 {
+  font-size: 30px;
+  font-style: italic;
+}
